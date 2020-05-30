@@ -1,0 +1,33 @@
+---
+
+Language: 'pt_BR'
+# Economy
+
+# mode: mysql | sqlite
+Mode: sqlite
+
+SQLite_info:
+  db_name: 'economy.db'
+  table_prefix: 'econ_'
+
+MySQL_info:
+  db_host: ''
+  db_name: ''
+  db_user: ''
+  db_passwd: ''
+  table_prefix: 'econ_'
+
+
+Currencies:
+  SkyCoins:
+    CustomName: '§aSkyCoins§r'
+    Symbol: '$'
+    DecimalPlaces: 2
+    InitialValue: 100
+  Bitcoins:
+    CustomName: '§6Bitcoins§r'
+    Symbol: 'BTC '
+    DecimalPlaces: 4
+    InitialValue: 0
+
+...

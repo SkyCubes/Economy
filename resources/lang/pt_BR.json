@@ -1,0 +1,28 @@
+{
+   "DB_UNDEFINED_MODE": "Modo de banco de dados não definido.",
+   "DB_UNRECOGNIZED_MODE": "Modo de banco de dados não reconhecido.",
+   "DB_UNDEFINED_NAME": "Nome do banco de dados não definido.",
+   "DB_UNDEFINED_HOST": "Host do banco de dados MySQL não definido.",
+   "DB_UNDEFINED_USER": "Usuário do banco de dados MySQL não definido.",
+   "DB_CANT_CREATE_TABLE": "Não foi possível criar tabelas no banco de dados.",
+   
+   "PLUGIN_WILL_BE_DISABLED": "O plugin será desativado.",
+   "CANNOT_CREATE_WALLET_PLAYER_ALREADY_HAVE_IT":" Não foi possível criar carteira pois o jogador {arg1} já possui uma.",
+
+   "CANNOT_TRANSFER_MONEY_TO_PLAYER": "Não foi possível fazer a transferencia de dinheiro do jogador {arg1} para o jogador {arg2}",
+   "YOU_HAVENT_A_WALLET": "Você não possui uma carteira. Entre em contato com a administração.",
+   "PLAYER_HAVENT_A_WALLET": "{arg1} não existe ou não possui uma carteira.",
+   "WALLET_OF_PLAYER": "Carteira de {arg1}",
+   "YOU_DONT_HAVE_MONEY_ENOUGH": "Você não possui este valor na carteira.",
+
+   "FORM_PAYMENT_TITLE": "Pagamento",
+   "FORM_RECIPIENT_LABEL": "Para quem você quer pagar?",
+   "FORM_RECIPIENT_PLACEHOLDER": "Insira o nome do jogador",
+   "FORM_CURRENCY_LABEL": "Moeda",
+   "FORM_VALUE_LABEL": "Valor",
+   "FORM_VALUE_PLACEHOLDER": "Insira o valor a ser pago",
+
+   "FORM_RESULT_PAID": "Pago!",
+   "FORM_RESULT_DESCRIPTION": "Você pagou {arg1} a {arg2}",
+   "FORM_INSERT_VALID_VALUE": "Insira um valor válido."
+}
