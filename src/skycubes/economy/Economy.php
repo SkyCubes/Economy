@@ -26,6 +26,7 @@ class Economy extends PluginBase implements Listener{
 	protected $conn;
 	protected $skyforms;
 	private $translator;
+	private $economy;
 
 	private $definitions;
 
@@ -209,6 +210,14 @@ class Economy extends PluginBase implements Listener{
 		$this->getScheduler()->scheduleRepeatingTask(new Popup($this, $player, $popupStringTitle.$popupString, 5), 7);
 	}
 
+	/** 
+    * Returns economyDB api
+    * @access public
+    * @return  EconomyDB
+    */
+	public function getEconomy(){
+		return $this->economy;
+	}
 	/** 
     * Returns selected language in config.yml
     * @access public
