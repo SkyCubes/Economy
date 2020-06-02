@@ -26,7 +26,7 @@ class Economy extends PluginBase implements Listener{
 	protected $conn;
 	protected $skyforms;
 	private $translator;
-	private $economy;
+	public $economy;
 
 	private $definitions;
 
@@ -218,6 +218,7 @@ class Economy extends PluginBase implements Listener{
 	public function getEconomy(){
 		return $this->economy;
 	}
+	
 	/** 
     * Returns selected language in config.yml
     * @access public

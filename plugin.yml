@@ -1,9 +1,10 @@
 name: Economy
-version: 1.1.0
+version: 1.1.1
 author: DanMetzkr
 api: 3.0.0
 main: skycubes\economy\Economy
 description: Adiciona suporte a economia no servidor
+load: STARTUP
 commands:
   economy:
     description: Comando principal
